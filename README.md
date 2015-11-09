@@ -26,7 +26,9 @@ Listen to FM stations on Intel Edison
   
   2) [USB To 3.5mm Jack Audio Adapter](http://www.amazon.in/Logitech-3-5mm-Jack-Audio-Adapter/dp/B0058P0I2C)
   
-  3) [Powered USB Hub](http://www.ebay.in/itm/Transcend-TS-HUB3K-HUB3-4-Port-3-0-USB-HUB-/281844012605?hash=item419f36563d:g:LKoAAOSw7PBToA8D) (Optional)
+  3) [USB Hub](http://www.amazon.in/Belkin-F5U407-4-Port-Ultra-Black/dp/B005UUY25E?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=8dc2c2fb-30f4-4e8a-9b5c-9e087d2b8be3)
+
+  4) [Powered USB Hub](http://www.ebay.in/itm/Transcend-TS-HUB3K-HUB3-4-Port-3-0-USB-HUB-/281844012605?hash=item419f36563d:g:LKoAAOSw7PBToA8D) (Optional)
  
       
 *  Driver installation for RTL-SDR
