@@ -33,6 +33,7 @@ sleep 2
 make install
 echo "Progress |##############################################        |"
 sleep 2
+make install-udev-rules
 echo "/usr/local/lib" > /etc/ld.so.conf
 ldconfig
 echo "pcm.!default sysdefault:Headset" > ~/.asoundrc
