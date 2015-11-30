@@ -1,7 +1,7 @@
 # Listen-FM-Radio-on-Intel-Edison-Poky-os
-Listen to FM stations on Intel Edison
+## Listen to FM stations on Intel Edison
 
-*  SDR (Software Defined Radio)
+### SDR (Software Defined Radio)
 
 
   Software-defined radio (SDR) is a technique for turning a computer into a radio. But not just
@@ -12,26 +12,26 @@ Listen to FM stations on Intel Edison
   fast enough to pick up and decode radio waves on the fly.
 
 
-*  RTL-SDR
+### RTL-SDR
 
 
   RTL-SDR is a very cheap software defined radio that uses a DVB-T TV tuner dongle based on the 
   RTL2832U chipset. RTL-SDR turns your Realtek RTL2832 based DVB dongle into a SDR receiver.
  
       
-*  Hardware:
+###Hardware:
      
       
-  1) [NooElec RTLSDR Receiver](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini-rtl2832-r820t.html)
+  * [NooElec RTLSDR Receiver](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini-rtl2832-r820t.html)
   
-  2) [USB To 3.5mm Jack Audio Adapter](http://www.amazon.in/Logitech-3-5mm-Jack-Audio-Adapter/dp/B0058P0I2C)
+  * [USB To 3.5mm Jack Audio Adapter](http://www.amazon.in/Logitech-3-5mm-Jack-Audio-Adapter/dp/B0058P0I2C)
   
-  3) [USB Hub](http://www.amazon.in/Belkin-F5U407-4-Port-Ultra-Black/dp/B005UUY25E?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=8dc2c2fb-30f4-4e8a-9b5c-9e087d2b8be3)
+  * [USB Hub](http://www.amazon.in/Belkin-F5U407-4-Port-Ultra-Black/dp/B005UUY25E?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=8dc2c2fb-30f4-4e8a-9b5c-9e087d2b8be3)
 
-  4) [Powered USB Hub](http://www.ebay.in/itm/Transcend-TS-HUB3K-HUB3-4-Port-3-0-USB-HUB-/281844012605?hash=item419f36563d:g:LKoAAOSw7PBToA8D) (Optional)
+  * [Powered USB Hub](http://www.ebay.in/itm/Transcend-TS-HUB3K-HUB3-4-Port-3-0-USB-HUB-/281844012605?hash=item419f36563d:g:LKoAAOSw7PBToA8D) (Optional)
  
       
-*  Driver installation for RTL-SDR
+### Driver installation for RTL-SDR
   
       
   Run the below command in intel edison terminal/shell to install librtlsdr driver for rtlsdr and to
@@ -39,17 +39,16 @@ Listen to FM stations on Intel Edison
           
       ./rtlsdr_fm_config.sh
       
-*  Listen to FM stations
+### Listen to FM stations
 
 
   Run fm_listen_poky script to listen to FM stations and mention the frequency as an argument.
   
       ./fm_listen_poky.sh 91.1
       
-*  References:
+### References:
 
-
-  > [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
+* [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
           
           
       
