@@ -46,7 +46,7 @@
   
       ./fm_listen_poky.sh 91.1
       
-### References
+### Reference
 
 * [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
           
