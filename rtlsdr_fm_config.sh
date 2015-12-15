@@ -1,4 +1,19 @@
 #!/bin/bash
+abort()
+{
+    echo >&2 '
+***************
+*** ABORTED ***
+***************
+'
+    echo "An error occurred. Exiting..." >&2
+    exit 1
+}
+
+trap 'abort' 0
+
+set -e
+########################################################################
 # First download git
 echo "-----------------------------------------------------------------"
 echo "Configuration started ......"
@@ -39,5 +54,12 @@ ldconfig
 echo "pcm.!default sysdefault:Headset" > ~/.asoundrc
 echo "Progress |######################################################|"                   
 sleep 2
-echo "done."
+#######################################################################
+trap : 0
+
+echo >&2 '
+************
+*** DONE *** 
+************
+'
 echo "Complete."
