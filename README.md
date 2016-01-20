@@ -38,18 +38,19 @@
   configure audio system
           
       ./rtlsdr_fm_config.sh
-      
-### Run Mode S decoder
+
+### Listen to FM stations
 
 
-  To see the decoded aircrafts, run the below command in dump1090 directory.
+  Run fm_listen_poky script to listen to FM stations and mention the frequency as an argument.
   
-      ./dump1090 --interactive
+      ./fm_listen_poky.sh 91.1
+      
+
       
 ### Reference
 
 * [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
-* [http://www.satsignal.eu/raspberry-pi/dump1090.html](http://www.satsignal.eu/raspberry-pi/dump1090.html)
           
           
       
