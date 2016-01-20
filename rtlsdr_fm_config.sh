@@ -35,11 +35,11 @@ sleep 2
 mkdir /rtlsdr
 cd /rtlsdr
 git clone https://github.com/steve-m/librtlsdr
-#git clone git://git.osmocom.org/rtl-sdr.git
+cd librtlsdr
+#git clone git://git.osmocom.org/rtl-sdr.git    # not works with proxy
+#cd rtl-sdr
 echo "Progress |##############                                        |"                   
 sleep 2
-#cd rtl-sdr
-cd librtlsdr
 autoreconf -i
 echo "Progress |###################                                   |"
 sleep 2
