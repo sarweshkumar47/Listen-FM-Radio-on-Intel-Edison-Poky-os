@@ -34,10 +34,12 @@ sleep 2
 #Source compilation
 mkdir /rtlsdr
 cd /rtlsdr
-git clone git://git.osmocom.org/rtl-sdr.git
+git clone https://github.com/steve-m/librtlsdr
+#git clone git://git.osmocom.org/rtl-sdr.git
 echo "Progress |##############                                        |"                   
 sleep 2
-cd rtl-sdr
+#cd rtl-sdr
+cd librtlsdr
 autoreconf -i
 echo "Progress |###################                                   |"
 sleep 2
