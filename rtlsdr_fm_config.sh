@@ -32,7 +32,7 @@ opkg install --force-downgrade libusb-1.0-dev
 echo "Progress |########                                              |"                     
 sleep 2
 #Source compilation
-mkdir /rtlsdr
+mkdir -p /rtlsdr
 cd /rtlsdr
 git clone https://github.com/steve-m/librtlsdr
 cd librtlsdr
