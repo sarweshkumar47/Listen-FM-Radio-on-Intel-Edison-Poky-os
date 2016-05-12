@@ -37,15 +37,18 @@
   Run the below command in intel edison terminal/shell to install librtlsdr driver for rtlsdr and to
   configure audio system
           
-      ./rtlsdr_fm_config.sh
+```bash
+  ./rtlsdr_fm_config.sh
+```
 
 ### Listen to FM stations
 
 
   Run fm_listen_poky script to listen to FM stations and mention the frequency as an argument.
   
-      ./fm_listen_poky.sh 91.1
-      
+```bash
+  ./fm_listen_poky.sh 91.1
+```    
 
       
 ### Reference
