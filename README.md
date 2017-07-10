@@ -19,7 +19,7 @@
   RTL2832U chipset. RTL-SDR turns your Realtek RTL2832 based DVB dongle into a SDR receiver.
  
       
-###Hardware
+### Hardware
      
       
   * [NooElec RTLSDR Receiver](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini-rtl2832-r820t.html)
